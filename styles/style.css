@@ -110,9 +110,14 @@ section {
     transition: 0.3s;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+    color: var(--second-bg-color);
+    font-weight: 500;
+}
+
 .navbar a.active {
     color: var(--main-color);
+    font-weight: 700;
 }
 
 #menu-icon {
