@@ -6,7 +6,7 @@
     --bg-color: #252525;
     --second-bg-color: #414141;
     --text-color: #ffffff;
-    --main-color: #ff0000;
+    --main-color: #19BBFD;
     --transition-speed: 0.5s ease;
     --border-radius-lg: 2rem;
     --border-radius-sm: 0.8rem;
@@ -110,9 +110,14 @@ section {
     transition: 0.3s;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+    color: var(--second-bg-color);
+    font-weight: 500;
+}
+
 .navbar a.active {
     color: var(--main-color);
+    font-weight: 700;
 }
 
 #menu-icon {
@@ -136,6 +141,10 @@ section {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+}
+
+.home-content h3 span {
+    color: var(--main-color);
 }
 
 .home-content h3:nth-of-type(2) {
@@ -205,6 +214,10 @@ section {
     line-height: 1.2;
 }
 
+.about-content h2 span {
+    color: var(--main-color);
+}
+
 .about-content h3 {
     font-size: 2.6rem;
 }
@@ -219,6 +232,10 @@ section {
 .expertise {
     min-height: auto;
     padding-bottom: 15rem;
+}
+
+.expertise h2 span {
+    color: var(--main-color);
 }
 
 .expertise-container {
@@ -266,6 +283,10 @@ section {
 .portfolio {
     background: var(--second-bg-color);
     padding-bottom: 1rem;
+}
+
+.portfolio h2 span {
+    color: var(--main-color);
 }
 
 .portfolio-container {
@@ -349,6 +370,10 @@ section {
 
 .testimonials h2 {
     margin-bottom: 1.5rem;
+}
+
+.testimonials h2 span {
+    color: var(--main-color);
 }
 
 .testimonials-container {
@@ -464,6 +489,10 @@ section {
     min-height: auto;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
+}
+
+.contact h2 span {
+    color: var(--main-color);
 }
 
 .contact form {
