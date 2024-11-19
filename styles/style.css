@@ -111,7 +111,7 @@ section {
 }
 
 .navbar a:hover {
-    color: var(--second-bg-color);
+    color: var(--main-color);
     font-weight: 500;
 }
 
