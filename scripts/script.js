@@ -17,13 +17,10 @@ const scrollRevealConfig = {
 
 const typedConfig = {
     strings: [
-        'B.Sc. Computer Engineering Student',
-        'Machine Learning Specialist',
-        'Learner',
-        'Pythonist',
-        'Developer',
-        'Freelancer',
-        'Mentor'
+        'Hocayım',
+        'Mentörüm',
+        'Danışmanım',
+        ''
     ],
     typeSpeed: 90,
     backSpeed: 35,
